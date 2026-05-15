@@ -1,4 +1,5 @@
 # Android / IntelliJ project metadata
+.idea/
 *.iml
 .idea/caches/
 .idea/libraries/
