@@ -65,7 +65,7 @@ The high `minSdk` is a real limitation of this build and is tracked in the roadm
 
 1. Clone the repository:
    ```
-   git clone https://github.com/Sitr3n01/PrivacyClipboard-Sentinel.git
+   git clone https://github.com/Sitr3n01/privacy_clipboard_for_android.git
    ```
 2. Open the project in Android Studio.
 3. Build and run on a physical device that meets the requirements above.
