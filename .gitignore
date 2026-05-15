@@ -1,15 +1,55 @@
+# Android / IntelliJ project metadata
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetSelector.xml
+.idea/studiobot.xml
+
+# Gradle
+.gradle/
+**/build/
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+.kotlin/
+
+# Local machine config
 local.properties
+/local.properties
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Build outputs
+app/release/
+app/debug/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Signing / secrets
+*.jks
+*.keystore
+*.p12
+keystore.properties
+signing.properties
+.env
+.env.*
+
+# Logs / heap dumps
+*.log
+*.hprof
+
+# Local DB snapshots / Room exports
+*.db
+*.db-journal
+
+# Session scratch files (Claude Code)
+tmpclaude-*-cwd
